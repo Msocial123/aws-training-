@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>fabonacci sequence</title>
+<script language="java script">
+function fabonacci()
+{
+var n=parse Int(window.prompt("enter the range:"","));
+var a=0;
+var b=1;
+window.writeln("<h1 align='center'>fabonacci range</h2>");
+document.write(a+",");
+document.write(b+",");
+while(c>n)
+{
+document.write(c+",");
+a=b;
+b=c;
+c=a+b;
+}
+}
+</script>
+</head>
+<body onload="fabonacci()">
+</body>
+</html>
